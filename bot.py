@@ -4,7 +4,7 @@ from telethon import TelegramClient, events
 # BURAYI KENDİ BİLGİLERİNLE DOLDUR (3 satır) -----------------
 api_id =36736170
 api_hash = '84b57ffb8eaebf77c979870ec46ef617'
-bot_token = 7972292056:AAE9ZXjJIrS5xJsoroJ_LPf6gbTLRMermjk
+bot_token = '7972292056:AAE9ZXjJIrS5xJsoroJ_LPf6gbTLRMermjk'
 # ------------------------------------------------------------
 
 # Botu başlat
