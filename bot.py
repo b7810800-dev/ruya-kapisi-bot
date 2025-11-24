@@ -8,7 +8,7 @@ bot_token = 7972292056:AAE9ZXjJIrS5xJsoroJ_LPf6gbTLRMermjk
 # ------------------------------------------------------------
 
 # Botu başlat
-client = TelegramClient('ruyakapisi_session', api_id, api_hash).start(bot_token=bot_token)
+client = TelegramClient('ruyakapisi_session
 
 @client.on(events.NewMessage(pattern='/start'))
 async def start(event):
