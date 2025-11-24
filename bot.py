@@ -2,7 +2,7 @@ import asyncio
 from telethon import TelegramClient, events
 
 # BURAYI KENDİ BİLGİLERİNLE DOLDUR (3 satır) -----------------
-api_id =7972292056:AAE9ZXjJIrS5xJsoroJ_LPf6gbTLRMermjk
+api_id =7972292056
 api_hash = '0123456789abcdef0123456789abcdef'   # my.telegram.org'dan aldığın api_hash
 bot_token = '7439128749:AAHxxxxxxxxxxxxxxxxxxxxxxxxxxx'  # @BotFather'dan aldığın token
 # ------------------------------------------------------------
