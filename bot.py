@@ -27,5 +27,5 @@ async def tum_mesajlar(event):
             await event.reply("Rüyanı aldım, bir saniye yorumluyorum... 🌟")
 
 print("🌙 Rüya Kapısı botu çalışıyor... 7/24 online!")
-client.run_until_disconnected()print("Bot aktif! /start yazarak çalıştırabilirsin ❤️")
+print("Rüya Kapısı botu çalışıyor... 7/24 online! ❤️")
 client.run_until_disconnected()
