@@ -27,7 +27,6 @@ async def tum_mesajlar(event):
 print("🌙 Rüya Kapısı botu çalışıyor... 7/24 online!")
 print("Rüya Kapısı botu çalışıyor... 7/24 online! ❤️")
 client.run_until_disconnected()
-client = TelegramClient('ruyakapisi_session', api_id, api_id, api_hash)
 
 async def main():
     await client.start(bot_token=bot_token)
