@@ -8,8 +8,6 @@ bot_token = '7972292056:AAE9ZXjJIrS5xJsoroJ_LPf6gbTLRMermjk'
 # ------------------------------------------------------------
 
 # Botu başlat
-client = TelegramClient('ruyakapisi_session', api_id, api_hash)
-await client.start(bot_token=bot_token)
 
 @client.on(events.NewMessage(pattern='/start'))
 async def start(event):
@@ -29,6 +27,12 @@ async def tum_mesajlar(event):
 print("🌙 Rüya Kapısı botu çalışıyor... 7/24 online!")
 print("Rüya Kapısı botu çalışıyor... 7/24 online! ❤️")
 client.run_until_disconnected()
+async def main():
+    await client.start(bot_token=bot_token)
+    print("Rüya Kapısı botu çalışıyor... 7/24 online! ❤️")
+    await client.run_until_disconnected()
+
+asyncio.run(main())
 async def main():
     await client.start(bot_token=bot_token)
     print("Rüya Kapısı botu çalışıyor... 7/24 online! ❤️")
