@@ -27,8 +27,3 @@ async def main():
     print("Rüya Kapısı botu çalışıyor... 7/24 online! ❤️")
     await client.run_until_disconnected()
 
-asyncio.run(main())
-    await client.start(bot_token=bot_token)
-    print("Rüya Kapısı botu çalışıyor... 7/24 online! ❤️")
-    await client.run_until_disconnected()
-asyncio.run(main())
