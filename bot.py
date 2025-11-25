@@ -1,4 +1,4 @@
-import asyncio
+
 from telethon import TelegramClient, events
 
 # BURAYI KENDİ BİLGİLERİNLE DOLDUR (3 satır) -----------------
@@ -29,3 +29,10 @@ async def tum_mesajlar(event):
 print("🌙 Rüya Kapısı botu çalışıyor... 7/24 online!")
 print("Rüya Kapısı botu çalışıyor... 7/24 online! ❤️")
 client.run_until_disconnected()
+async def main():
+    await client.start(bot_token=bot_token)
+    print("Rüya Kapısı botu çalışıyor... 7/24 online! ❤️")
+    await client.run_until_disconnected()
+
+asyncio.run(main())
+
