@@ -20,9 +20,7 @@ async def start(event):
 async def tum_mesajlar(event):
     if event.is_private:  # sadece özel mesajlarda çalışsın
 ruya = event.raw_text.strip()
-    if '/start' in ruya.lower():           return
-            await event.reply("Rüyanı aldım, bir saniye yorumluyorum... 🌟")
-async def main():
+if '/start' in ruya.lower(): return
     await client.start(bot_token=bot_token)
     print("Rüya Kapısı botu çalışıyor... 7/24 online! ❤️")
     await client.run_until_disconnected()
