@@ -19,9 +19,8 @@ async def start(event):
 @client.on(events.NewMessage)
 async def tum_mesajlar(event):
     if event.is_private:  # sadece özel mesajlarda çalışsın
-        ruya = event.raw_text.strip()
-    if '/start' in ruya.lower():
-    return
+ruya = event.raw_text.strip()
+    if '/start' in ruya.lower(): return
             await event.reply("Rüyanı aldım, bir saniye yorumluyorum... 🌟")
 async def main():
     await client.start(bot_token=bot_token)
