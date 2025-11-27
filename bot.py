@@ -2,7 +2,7 @@ from telethon import TelegramClient, events
 import asyncio
 
 api_id = 36736170
-api_hash = '8457ffb8eaebf77c979870ec46ef6'
+api_hash = '84b57ffb8eaebf77c979870ec46ef617'
 bot_token = '7972292056:AAE9ZXjJIrS5xJsoroJ_LPf6gbTLRMermjk'
 
 client = TelegramClient('ruyakapisi_session', api_id, api_hash)
