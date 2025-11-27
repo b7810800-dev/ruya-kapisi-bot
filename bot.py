@@ -3,7 +3,7 @@ import asyncio
 
 api_id = 36736170
 api_hash = '8457ffb8eaebf77c979870ec46ef6'
-bot_token = '7972292056:AAAE9ZxjJIrS5xJsor'
+bot_token = '7972292056:AAE9ZXjJIrS5xJsoroJ_LPf6gbTLRMermjk'
 
 client = TelegramClient('ruyakapisi_session', api_id, api_hash)
 
